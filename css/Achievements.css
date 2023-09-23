@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: darkgrey;
+}
+ 
+.main {
+  padding-top: 50px;
+  overflow: auto;
+}
+ 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: darkgrey;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex p{
+    width: 49%;
+}
+
+.flextest {
+  display: flex; /*横並び*/
+}
+.flextest .image {
+  width: 210px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flextest .text {
+  margin: 0 0 0 0px;
+  padding: 0;
+}
